@@ -55,8 +55,8 @@ const Contacts = () => {
   return (
     <Box m="20px">
       <Header
-        title="CONTACTS"
-        subtitle="Bookings for Future Reference"
+        title="HISTORY"
+        subtitle="List of Booking History"
       />
       <Box
         m="40px 0 0 0"
@@ -86,7 +86,7 @@ const Contacts = () => {
             color: `${colors.greenAccent[200]} !important`,
           },
           "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
-            color: `€{colors.grey[100]} !important`,
+            color: `${colors.grey[100]} !important`,
           },
         }}
       >

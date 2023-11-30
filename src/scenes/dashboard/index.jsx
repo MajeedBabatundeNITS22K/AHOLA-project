@@ -23,7 +23,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+        <Header title="DASHBOARD" subtitle="Welcome to your Report dashboard" />
 
         <Box>
           <Button
@@ -58,7 +58,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Bookings "
+            subtitle="Emails Sent"
             progress="0.75"
             increase="+14%"
             icon={
@@ -77,7 +77,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="10,225"
-            subtitle="Destinations"
+            subtitle="Destionations"
             progress="0.50"
             increase="+21%"
             icon={
@@ -96,7 +96,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,441"
-            subtitle="Trips"
+            subtitle="Trips Completed"
             progress="0.30"
             increase="+5%"
             icon={
@@ -115,7 +115,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="834"
-            subtitle="Deviation"
+            subtitle="Deviations"
             progress="0.80"
             increase="+43%"
             icon={
@@ -145,7 +145,7 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
+                Income Generated
               </Typography>
               <Typography
                 variant="h3"
@@ -240,7 +240,7 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-            €48,352 revenue generated
+              €48,352 income generated
             </Typography>
             <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
@@ -255,7 +255,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Sales Quantity
+            Complaint Area
           </Typography>
           <Box height="250px" mt="-20px">
             <BarChart isDashboard={true} />
